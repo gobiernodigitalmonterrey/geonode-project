@@ -1,1 +1,1 @@
--e git+https://github.com/gobiernodigitalmonterrey/geonode@datos_mty#egg=GeoNode
+-e git+https://github.com/gobiernodigitalmonterrey/geonode@datos_mty_gcp#egg=GeoNode
