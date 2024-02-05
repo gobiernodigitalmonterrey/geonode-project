@@ -82,7 +82,7 @@ location /uploaded/ {
       access_log off;
       add_header Pragma "public";
       add_header Cache-Control "max-age=31536000, public";
-      add_header Content-Disposition "attachment; filename=$1";
+      add_header Content-Disposition "attachment; filename=$uri";
       add_header Content-Type application/octet-stream;
   }
 
