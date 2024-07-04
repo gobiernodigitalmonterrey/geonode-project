@@ -13,6 +13,7 @@ uwsgi_read_timeout          600;
 send_timeout                600;
 fastcgi_hide_header Set-Cookie;
 etag on;
+etag on;
 # compression
 gzip on;
 gzip_vary on;
@@ -100,6 +101,7 @@ location / {
       return 200;
   }
 
+  add_header Access-Control-Allow-Origin *;
   add_header Access-Control-Allow-Credentials false;
   add_header Access-Control-Allow-Headers "Content-Type, Accept, Authorization, Origin, User-Agent";
   add_header Access-Control-Allow-Methods "GET, POST, PUT, PATCH, OPTIONS";
