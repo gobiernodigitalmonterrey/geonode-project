@@ -15,6 +15,7 @@ GeoNode template project. Generates a django project with GeoNode support.
 -  [Recommended: Track your changes](#recommended-track-your-changes)
 -  [Hints: Configuring `requirements.txt`](#hints-configuring-requirementstxt)
 
+
 ## Quick Docker Start
 
   ```bash
